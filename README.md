@@ -41,4 +41,4 @@ Update package.json file to
 
 5. *** Step 5 ***
 Installing Husky 
-`npm i -D husky lint-staged`   
+`npm i -D --save-dev husky lint-staged`   
