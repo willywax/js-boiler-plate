@@ -26,3 +26,14 @@ You can visit the site for more configuratins on [Prettier-eslint](https://githu
 `npm i -D --save-dev prettier-eslint` 
 
 
+`npm i -D --save-dev prettier-eslint-cli`   or `yarn add --dev prettier-eslint-cli` 
+
+Update package.json file to 
+
+            "scripts": {
+                    "lint": "eslint '**/*.js'",
+                    "lint:fix" : "prettier-eslint  '**/*.js' --write"
+                },
+        
+`npm lint:fix`   to format the code
+

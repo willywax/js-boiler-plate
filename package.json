@@ -4,7 +4,8 @@
   "description": "This a Js Boiler Plate. Can be used with Node React or Angular Projects.  Installs all the basic dependecies for a modern js Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'",
+    "lint:fix" : "prettier-eslint  '**/*.js' --write"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier-eslint": "^8.8.2"
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
