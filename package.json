@@ -1,0 +1,20 @@
+{
+  "name": "js-boiler-plate",
+  "version": "1.0.0",
+  "description": "This a Js Boiler Plate. Can be used with Node React or Angular Projects.  Installs all the basic dependecies for a modern js Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willywax/js-boiler-plate.git"
+  },
+  "keywords": ["js","boiler-plate"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willywax/js-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/willywax/js-boiler-plate#readme"
+}
