@@ -2,6 +2,7 @@
 This a Js Boiler Plate. Can be used with Node React or Angular Projects. 
 Installs all the basic dependecies for a modern js Project
 
+1. *** Step 1 ***
 Commands run on the project 
     `npm init -y`   to Initialize the repo
 
@@ -37,3 +38,7 @@ Update package.json file to
         
 `npm lint:fix`   to format the code
 
+
+5. *** Step 5 ***
+Installing Husky 
+`npm i -D husky lint-staged`   

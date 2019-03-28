@@ -7,6 +7,14 @@
     "lint": "eslint '**/*.js'",
     "lint:fix" : "prettier-eslint  '**/*.js' --write"
   },
+  "husky" :{
+    "hooks" : {
+      "pre-commit" : "lint-staged"
+    }
+  },
+  "lint-staged" : {
+    "*.js": ["npm run lint:fix", "git add"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/willywax/js-boiler-plate.git"
