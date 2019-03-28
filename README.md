@@ -10,5 +10,19 @@ Updated the package.json File
 2. Creation of .editorconfig File for linting Code
 This sets the format of code when code is written in basic editors. More details can be found om [EditorConfig](https://editorconfig.org/)
 
-3. Other Code editors we use ES Lint
+3. Other Code editors we use ES Lint. It brings consistency to code. 
 Details about installing [ES Lint](https://eslint.org/) can be foud there.
+`npm i -D eslint` 
+To check if installed correctly run  `npx eslint` 
+
+
+To set it up `npx eslint --init`  Follow the Instruction based on the project you installing
+
+To try `npx eslint src/*.js`  To see the errors 
+
+4. Install Prettier to format the code 
+You can visit the site for more configuratins on [Prettier-eslint](https://github.com/prettier/prettier-eslint)
+
+`npm i -D --save-dev prettier-eslint` 
+
+
